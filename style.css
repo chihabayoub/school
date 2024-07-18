@@ -1,0 +1,210 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: #F9E0AE;
+}
+
+.navbar-logo{
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navbar-bton{
+  background-color: #C24914;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 9px;
+  border: none;
+}
+
+.navbar-bton1{
+  display: flex;
+}
+
+.navbar-contact{
+  display: none;
+}
+
+.box{
+  padding: 90px;
+}
+
+.name-text{
+  font-size: 60px;
+}
+
+.p-text{
+  font-size: 20px;
+}
+
+
+.box-text{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.box-bton{
+  background-color: #682C0E;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 9px;
+  border: none;
+}
+
+.box-img{
+  max-width: 450px;
+}
+
+.box2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.box-img2{
+  width: 450px;
+}
+
+.name-text3{
+  font-size: 45px;
+}
+
+.info{
+  text-align: center;
+}
+
+.bton-info{
+  background-color: #FC8621;
+  color: white;
+  padding: 10px 70px;
+  border-radius: 9px;
+  border: none;
+}
+
+.contact{
+  padding: 70px;
+}
+
+footer{
+  background-color: #F9E0AE;
+  color: white;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo{
+  max-width: 100px;
+}
+
+.footer-links{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-name{
+  color: black;
+  font-size: 20px;
+}
+
+.footer-links li a{
+  color: #6C6C6C;
+  text-decoration: none;
+  padding: 5px 20px;
+  display: block;
+}
+
+.copy{
+  color: #6C6C6C;
+  padding: 6px;
+  text-align: center;
+}
+
+@media(max-width:600px){
+  .navbar{
+    flex-direction: column;
+  }
+
+  .navbar a{
+    padding: 10px;
+  }
+
+  .navbar-bton1{
+    padding: 6px 50px; 
+
+  }
+
+  .navbar-bton{
+    display: none;
+  }
+  
+  .box{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .name-text{
+    font-size: 40px;
+  }
+  
+  .p-text{
+    font-size: 15px;
+  }
+
+  .box2{
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .box-img{
+    width: 300px;
+  }
+
+  .box-img2{
+    width: 300px;
+  }
+
+  .name-text3{
+    font-size: 25px;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+  .footer-logo, .footer-links{
+    margin-bottom: 10px;
+  }
+
+  .footer-logo{
+    padding: 15px 100px;
+  }
+
+  
+  
+}
